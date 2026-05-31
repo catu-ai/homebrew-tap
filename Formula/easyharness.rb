@@ -2,25 +2,25 @@ class Easyharness < Formula
   desc "Thin, git-native harness CLI for human-steered, agent-executed work"
   homepage "https://github.com/catu-ai/easyharness"
   license "MIT"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.0/easyharness_v0.4.0_darwin_arm64.zip"
-      sha256 "e57fd3e2d3af1fab3eb2ef1556f199c13d11de340fa1b30e684aa7ea0d3bb7c7"
+      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.1/easyharness_v0.4.1_darwin_arm64.zip"
+      sha256 "08363ec6b40e9c756001579ddc55d36a7f96f728300c7555f5e8685f3a40d300"
     else
-      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.0/easyharness_v0.4.0_darwin_amd64.zip"
-      sha256 "b7d65265868ca18e0915dbcf491179b4b5eae6283b288c0736c16a10f8341ddd"
+      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.1/easyharness_v0.4.1_darwin_amd64.zip"
+      sha256 "a639ede0ccb1403bb8f653fdc06c7247c9a3e6edd6c5b66b306bca050c2eb34b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.0/easyharness_v0.4.0_linux_arm64.zip"
-      sha256 "2c9f585bdb0be1996dabd835b54ed9a9c62319176368cbab66e703736209b442"
+      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.1/easyharness_v0.4.1_linux_arm64.zip"
+      sha256 "a5a5fcaa756994235a6be4fdde5281a369cc57870ad61d3a96390f35054249a1"
     else
-      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.0/easyharness_v0.4.0_linux_amd64.zip"
-      sha256 "fb5759266176bdcbde8abfddff4ed5b7fea8524d56d5ea45329d1d9110982642"
+      url "https://github.com/catu-ai/easyharness/releases/download/v0.4.1/easyharness_v0.4.1_linux_amd64.zip"
+      sha256 "a9281dbdc706808770eaa583c35a6e0d7938c79791d9ca4bfa6a82da8c7a4053"
     end
   end
 
